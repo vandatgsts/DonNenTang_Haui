@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9E9E9"
+    tools:context=".info_Screen.info_GiaoTrinh">
+
+    <TextView
+        android:id="@+id/qlybiensoan"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/shape_no_boder"
+        android:gravity="center"
+        android:text="@string/th_ng_tin_gi_o_tr_nh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/info_book_btn_arrowback"
+        android:layout_width="43dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        app:layout_constraintBottom_toBottomOf="@+id/qlybiensoan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+         />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="641dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="1dp"
+        android:background="@drawable/rectangle_3_ek1_shape"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_book_btn_arrowback">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/info_recyView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E9E9E9"/>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
