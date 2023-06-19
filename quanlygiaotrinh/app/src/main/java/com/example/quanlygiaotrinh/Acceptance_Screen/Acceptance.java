@@ -66,6 +66,21 @@ public class Acceptance extends AppCompatActivity {
             } else {
                 Book item=listBooks2.get(spinnerNameBook.getSelectedItemPosition());
                 item.setStatus(3);
+                edtIdeal.setText("");
+                edtTotal1_1.setText("");
+                edtTotal1_2.setText("");
+                edtTotal2_1.setText("");
+                edtTotal2_2.setText("");
+                edtTotal2_3.setText("");
+                edtTotal3_1.setText("");
+                edtTotal3_2.setText("");
+                edtTotal3_3.setText("");
+                edtTotal3_4.setText("");
+                txtAcepted.setText("");
+                txtTotal.setText("");
+                txtTotal1.setText("");
+                txtTotal2.setText("");
+                txtTotal3.setText("");
                 // neu diem >=60 thi giao trinh dat chuan
                 if(numberAns>=60)
                 {

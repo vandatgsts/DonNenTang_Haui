@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THÔNG TIN CÁ NHÂN"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Họ tên:"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp">
+
+        </TextView>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/editten">
+
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="CMND:"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp">
+
+        </TextView>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:id="@+id/editcmnd">
+
+        </EditText>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:text="BẰNG CẤP:">
+
+    </TextView>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:id="@+id/groupradio"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:id="@+id/rdtc"
+            android:layout_height="wrap_content"
+            android:text="Trung cấp">
+
+        </RadioButton>
+        <RadioButton
+
+            android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:id="@+id/rdcd"
+            android:layout_height="wrap_content"
+            android:text="Cao Đẳng">
+
+        </RadioButton>
+        <RadioButton
+            android:layout_width="0dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:id="@+id/rddh"
+            android:layout_height="wrap_content"
+            android:text="Đại học">
+
+        </RadioButton>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:text="Sở thích:">
+
+    </TextView>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:weightSum="3"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_width="0dp"
+            android:id="@+id/checkdocsach"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Đọc sách">
+
+        </CheckBox>
+        <CheckBox
+            android:layout_width="0dp"
+            android:id="@+id/checkdocbao"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Đọc báo">
+
+        </CheckBox>
+        <CheckBox
+            android:layout_width="0dp"
+            android:id="@+id/checkdoccode"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Đọc code">
+
+        </CheckBox>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thông tin bổ sung:"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/black">
+
+    </TextView>
+    <EditText
+        android:id="@+id/editbosung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnguitt"
+        android:text="Select Option"
+        android:layout_gravity="center">
+
+    </Button>
+
+
+</LinearLayout>

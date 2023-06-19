@@ -8,7 +8,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.quanlygiaotrinh.Adapter.AdapterConfirmProcess;
 import com.example.quanlygiaotrinh.Database.Book;
 import com.example.quanlygiaotrinh.Database.DBHelper;
 import com.example.quanlygiaotrinh.MainActivity;

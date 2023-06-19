@@ -12,13 +12,11 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:inputType="text"
-        android:text="234"
         android:hint="@string/ten_cong_viec" />
     <EditText
         android:id="@+id/new_process_content"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
-        android:text="324"
         android:hint="@string/noi_dung" />
 </LinearLayout>

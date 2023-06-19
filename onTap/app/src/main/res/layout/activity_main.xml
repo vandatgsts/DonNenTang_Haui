@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_createDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnTaoDB"
+        android:text="@string/t_o_database" />
+
+    <Button
+        android:id="@+id/btn_createTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/t_o_b_ng_sinh_vien"
+        android:onClick="btnTaoBangSV"/>
+
+    <EditText
+        android:id="@+id/edtMasv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="MaSV"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edtHoten"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Họ tên" />
+
+    <EditText
+        android:id="@+id/edtLop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Lớp" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Sinh viên"
+        android:onClick="btnThemSV"/>
+
+    <Button
+        android:id="@+id/btn_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnXemdssv"
+        android:text="Xem ds sinh viên" />
+
+    <Button
+        android:id="@+id/btn_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnUpdateSv"
+        android:text="Cập nhật sinh viên" />
+
+    <Button
+        android:id="@+id/btn_deleteS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xóa Sinh viên"
+        android:onClick="btnXoaSV"/>
+
+    <Button
+        android:id="@+id/btn_deleteDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xóa database"
+        android:onClick="btnXoadb"/>
+
+    <ListView
+        android:id="@+id/listSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

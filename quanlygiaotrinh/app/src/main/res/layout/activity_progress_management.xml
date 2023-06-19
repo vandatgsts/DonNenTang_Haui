@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".info_Screen.ProgressManagement">
+    tools:context=".info_Screen.ProcressManager_Screen.ProgressManagement">
     <TextView
         android:id="@+id/qlybiensoan"
         android:layout_width="0dp"

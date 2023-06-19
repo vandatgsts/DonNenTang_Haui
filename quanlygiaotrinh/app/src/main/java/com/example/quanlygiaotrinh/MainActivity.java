@@ -7,15 +7,11 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.example.quanlygiaotrinh.Acceptance_Screen.Acceptance;
-import com.example.quanlygiaotrinh.Database.Book;
 import com.example.quanlygiaotrinh.Database.DBHelper;
 import com.example.quanlygiaotrinh.Database.ListData;
 import com.example.quanlygiaotrinh.Register_Screen.Register;
 import com.example.quanlygiaotrinh.info_Screen.info_GiaoTrinh;
 import com.example.quanlygiaotrinh.process_management_screen.confirmation_process;
-
-import java.util.ArrayList;
-import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity {
     TextView btn_service;

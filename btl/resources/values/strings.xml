@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- th_ng_tin_gi_o_tr_nh strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="t_n_gi_o_tr_nh_string">Tn gio trnh</string>
+	<string name="ch__bi_n_string">Ch bin</string>
+	<string name="gi_o_vi_n_tham_gia_string">Gio vin tham gia</string>
+	<string name="giai__o_n_th_c_hi_n_string">Giai on thc hin</string>
+	<string name="nguy_n_v_n_a_string">Nguyn Vn A</string>
+	<string name="nguy_n_th__b_string">Nguyn Th B</string>
+	<string name="_2022___2023_string">2022 - 2023</string>
+	<string name="t_n_gi_o_tr_nh_ek1_string">Tn gio trnh</string>
+	<string name="ch__bi_n_ek1_string">Ch bin</string>
+	<string name="gi_o_vi_n_tham_gia_ek1_string">Gio vin tham gia</string>
+	<string name="giai__o_n_th_c_hi_n_ek1_string">Giai on thc hin</string>
+	<string name="nguy_n_v_n_a_ek1_string">Nguyn Vn A</string>
+	<string name="nguy_n_th__b_ek1_string">Nguyn Th B</string>
+	<string name="_2022___2023_ek1_string">2022 - 2023</string>
+	<string name="t_n_gi_o_tr_nh_ek2_string">Tn gio trnh</string>
+	<string name="ch__bi_n_ek2_string">Ch bin</string>
+	<string name="gi_o_vi_n_tham_gia_ek2_string">Gio vin tham gia</string>
+	<string name="giai__o_n_th_c_hi_n_ek2_string">Giai on thc hin</string>
+	<string name="nguy_n_v_n_a_ek2_string">Nguyn Vn A</string>
+	<string name="nguy_n_th__b_ek2_string">Nguyn Th B</string>
+	<string name="_2022___2023_ek2_string">2022 - 2023</string>
+	<string name="th_ng_tin_gi_o_tr_nh_string">Thng tin gio trnh</string>
+</resources>

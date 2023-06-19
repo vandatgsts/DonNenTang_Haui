@@ -4,26 +4,17 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.app.AlertDialog;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 
-import com.example.quanlygiaotrinh.Adapter.AdapterChooseTeacher;
-import com.example.quanlygiaotrinh.Adapter.AdapterReCyInfo;
-import com.example.quanlygiaotrinh.Adapter.AdapterRegister;
 import com.example.quanlygiaotrinh.Database.Book;
 import com.example.quanlygiaotrinh.Database.DBHelper;
-import com.example.quanlygiaotrinh.Database.ListData;
 import com.example.quanlygiaotrinh.MainActivity;
 import com.example.quanlygiaotrinh.R;
+import com.example.quanlygiaotrinh.Register_Screen.Register_Form_Screen.Register_Form;
 
 import java.util.ArrayList;
 

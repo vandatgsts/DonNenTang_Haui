@@ -6,8 +6,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.example.quanlygiaotrinh.Database.Book;
-import com.example.quanlygiaotrinh.info_Screen.Procress;
+import com.example.quanlygiaotrinh.info_Screen.ProcressManager_Screen.Procress;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -98,7 +97,7 @@ public class DBHelper extends SQLiteOpenHelper {
         db.close();
     }
 
-    // Thêm quy trình vào cơ sở dữ liệu
+    // Thêm Procress vào cơ sở dữ liệu
     public void addProcress(Procress procress) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();

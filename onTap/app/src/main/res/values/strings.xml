@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ontap</string>
+    <string name="t_o_database">Tạo database</string>
+    <string name="t_o_b_ng_sinh_vien">Tạo bảng Sinh Vien</string>
+</resources>

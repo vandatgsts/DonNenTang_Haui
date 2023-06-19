@@ -226,7 +226,7 @@
                         android:id="@+id/criteria7_score"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/_30" />
+                        android:text="30" />
                 </LinearLayout>
 
                 <LinearLayout
